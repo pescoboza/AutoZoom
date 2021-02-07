@@ -10,17 +10,18 @@
 namespace j = nlohmann;
 
 const char* JSON_FILENAME{"schedule.json"};
-const char* EXEC_PATH{"C:\\Users\\PS\\AppData\\Roaming\\Zoom\\bin_00\\Zoom.exe"};
+const std::string EXEC_PATH{ '\"' + std::string{std::getenv("APPDATA")} + R"(\Zoom\bin\Zoom.exe)" + '\"'};
 const unsigned CHECK_EVERY_MS{static_cast<unsigned>(59.99 * 1000)};
 const std::string DAYS_OF_WEEK_ARR[7]{"sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"};
 
 void sleep(unsigned ms){ Sleep(ms); }
 
 int main () {
+	std::cout << "path: " <<  EXEC_PATH << std::endl;
     std::system("color A");
     
     std::cout << "Starting zoom" ;
-    std::system((std::string{"start "} + EXEC_PATH).c_str());
+    std::system((R"(start "" )" + EXEC_PATH).c_str());
     for( int i {0}; i < 5; i++){
         sleep(500);
         std::cout << '.';
@@ -77,7 +78,7 @@ int main () {
             std::cout << link << std::endl;
 
             // Join start the program
-            std::system((std::string{"start "} + link).c_str());
+            std::system((std::string{R"(start "" )"} + link).c_str());
             
             // Display feedback
             std::cout << "\nJoining meeting..." << std::endl;
