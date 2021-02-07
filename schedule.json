@@ -1,0 +1,50 @@
+{
+    "monday": {
+        "15:25": {
+            "name": "MEO_NEG",
+            "link": "https://itesm.zoom.us/j/4424648908"
+        },
+        "17:28": {
+            "name": "ARQ_EMP",
+            "link": "https://itesm.zoom.us/j/8413256725"
+        }
+    },
+    "tuesday": {
+        "6:55": {
+            "name": "MITOS",
+            "link": "https://itesm.zoom.us/j/2564055930"
+        },
+        "17:28": {
+            "name": "ARQ_EMP",
+            "link": "https://itesm.zoom.us/j/8413256725"
+        }
+    },
+    "wednesday": {
+        "17:28": {
+            "name": "ARQ_EMP",
+            "link": "https://itesm.zoom.us/j/8413256725"
+        }
+    },
+    "thursday": {
+        "6:55": {
+            "name": "MITOS",
+            "link": "https://itesm.zoom.us/j/2564055930"
+        },
+        "17:28": {
+            "name": "ARQ_EMP",
+            "link": "https://itesm.zoom.us/j/8413256725"
+        }
+    },
+    "friday": {
+        "6:55": {
+            "name": "MITOS",
+            "link": "https://itesm.zoom.us/j/2564055930"
+        }
+    },
+    "saturday": {
+        "23:59":{
+            "name": "TEST", 
+            "link": "https://itesm.zoom.us/j/2564055930"
+        }
+    }
+}
