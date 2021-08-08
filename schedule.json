@@ -1,50 +1,48 @@
 {
     "monday": {
-        "15:25": {
-            "name": "MEO_NEG",
-            "link": "https://itesm.zoom.us/j/4424648908"
-        },
-        "17:28": {
-            "name": "ARQ_EMP",
-            "link": "https://itesm.zoom.us/j/8413256725"
+        "2:57": {
+            "name": "Enteprise Architecture",
+            "link": "https://itesm.zoom.us/j/4533528839"
         }
     },
     "tuesday": {
-        "6:55": {
-            "name": "MITOS",
-            "link": "https://itesm.zoom.us/j/2564055930"
+        "12:58": {
+            "name": "Innov. Procesos Creativos",
+            "link": "https://itesm.zoom.us/j/2918322752"
         },
-        "17:28": {
-            "name": "ARQ_EMP",
-            "link": "https://itesm.zoom.us/j/8413256725"
+        "2:57": {
+            "name": "Enteprise Architecture",
+            "link": "https://itesm.zoom.us/j/4533528839"
+        },
+        "4:57": {
+            "name": "Tecnologia Procesos Negocio",
+            "link": "https://itesm.zoom.us/j/9761623418"
         }
     },
     "wednesday": {
-        "17:28": {
-            "name": "ARQ_EMP",
-            "link": "https://itesm.zoom.us/j/8413256725"
+        "2:57": {
+            "name": "Enteprise Architecture",
+            "link": "https://itesm.zoom.us/j/4533528839"
         }
     },
     "thursday": {
-        "6:55": {
-            "name": "MITOS",
-            "link": "https://itesm.zoom.us/j/2564055930"
-        },
-        "17:28": {
-            "name": "ARQ_EMP",
-            "link": "https://itesm.zoom.us/j/8413256725"
+        "2:57": {
+            "name": "Enteprise Architecture",
+            "link": "https://itesm.zoom.us/j/4533528839"
         }
     },
     "friday": {
-        "6:55": {
-            "name": "MITOS",
-            "link": "https://itesm.zoom.us/j/2564055930"
-        }
-    },
-    "sunday": {
-        "12:31":{
-            "name": "TEST", 
-            "link": "https://us04web.zoom.us/j/72034369685?pwd=N1ljZWRQMGxLWW5XSmFMcnlUSVFjZz09"
+        "12:58": {
+            "name": "Innov. Procesos Creativos",
+            "link": "https://itesm.zoom.us/j/2918322752"
+        },
+        "2:57": {
+            "name": "Enteprise Architecture",
+            "link": "https://itesm.zoom.us/j/4533528839"
+        },
+        "4:57": {
+            "name": "Tecnologia Procesos Negocio",
+            "link": "https://itesm.zoom.us/j/9761623418"
         }
     }
 }
